@@ -8,6 +8,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 import Footer from './Footer';
 import './static/style';
+import TestPage from "./TestPage";
 
 let isMobile;
 
@@ -33,6 +34,7 @@ class Home extends React.PureComponent {
           <Header isMobile={this.state.isMobile} />
           <div className="home-wrapper">
             <Banner isMobile={this.state.isMobile} />
+            <TestPage isMobile={this.state.isMobile} />
             <Page1 isMobile={this.state.isMobile} />
             <Page2 />
           </div>
