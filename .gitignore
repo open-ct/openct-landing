@@ -1,3 +1,9 @@
 dist
 node_modules
 .DS_Store
+
+.idea/
+*.iml
+
+package-lock.json
+yarn.lock
