@@ -82,7 +82,7 @@ const pointPos = [
   { x: 50, y: 50, opacity: 0.2 },
 ];
 
-class Page1 extends React.PureComponent {
+class TestPage extends React.PureComponent {
   static propTypes = {
     isMobile: PropTypes.bool.isRequired,
   }
@@ -168,20 +168,15 @@ class Page1 extends React.PureComponent {
           </div>
         </li>
       );
-      children[Math.floor(i / 3)].push(child);
+      children[Math.floor(i / 4)].push(child);
     });
 
     children = children.map((item, i) => (
-      <QueueAnim
+      <div
         className="page1-box-wrapper"
-        key={i.toString()}
-        type="bottom"
-        leaveReverse
-        delay={[i * 100, (children.length - 1 - i) * 100]}
-        component="ul"
       >
         {item}
-      </QueueAnim>
+      </div>
     ));
     return (
       <div className="home-page page1" >
@@ -199,13 +194,13 @@ class Page1 extends React.PureComponent {
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>
-          <OverPack>
+          {/*<OverPack>*/}
             {children}
-          </OverPack>
+          {/*</OverPack>*/}
         </div>
       </div>
     );
   }
 }
 
-export default Page1;
+export default TestPage;
