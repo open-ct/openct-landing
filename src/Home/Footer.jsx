@@ -8,7 +8,7 @@ function Footer() {
         <Row>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>Ant Design</h2>
+              <h2>OPEN CT</h2>
               <div>
                 <a target="_blank " href="https://github.com/ant-design/ant-design-pro">
                   Ant Design Pro GitHub
@@ -16,7 +16,7 @@ function Footer() {
               </div>
               <div>
                 <a target="_blank " href="http://ant.design">
-                  Ant Design
+                  OPEN CT
                 </a>
               </div>
               <div>

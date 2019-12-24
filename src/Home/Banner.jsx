@@ -27,9 +27,9 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">ANT DESIGN PRO</h1>
+        <h1 key="h1">OPEN CT</h1>
         <p key="content">
-          开箱即用的中台前端/设计解决方案
+          基于高阶思维能力的中小学生交互式测评体系
         </p>
         <div key="button" className="button-wrapper">
           <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
