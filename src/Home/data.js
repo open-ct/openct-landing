@@ -89,7 +89,7 @@ export const page1 = {
       src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
-      link: 'https://ant.design/docs/spec/values-cn',
+      link: 'https://test.xsj21.com/ticket-login',
     },
     {
       title: '视觉',
