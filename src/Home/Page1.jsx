@@ -64,13 +64,6 @@ const featuresCN = [
     color: '#EB2F96',
     shadowColor: 'rgba(235,45,150,.12)',
   },
-  {
-    title: '即时报告反馈结果',
-    content: '自动化即时报告生成',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/RpJIQitGbSCHwLMimybX.svg',
-    color: '#1890FF',
-    shadowColor: 'rgba(24,144,255,.12)',
-  },
 ];
 
 const pointPos = [
@@ -168,7 +161,7 @@ class Page1 extends React.PureComponent {
           </div>
         </li>
       );
-      children[Math.floor(i / 3)].push(child);
+      children[Math.floor(i / 4)].push(child);
     });
 
     children = children.map((item, i) => (
