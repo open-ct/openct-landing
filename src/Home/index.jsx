@@ -9,6 +9,9 @@ import Page2 from './Page2';
 import Footer from './Footer';
 import './static/style';
 import TestPage from "./TestPage";
+import Teams2 from "./Teams2";
+import { Footer00DataSource, Teams20DataSource } from './data.source';
+
 
 let isMobile;
 
@@ -37,6 +40,7 @@ class Home extends React.PureComponent {
             <TestPage isMobile={this.state.isMobile} />
             <Page1 isMobile={this.state.isMobile} />
             <Page2 />
+            <Teams2 dataSource={Teams20DataSource} isMobile={this.state.isMobile} />
           </div>
           <Footer />
         </div>
