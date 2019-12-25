@@ -32,9 +32,9 @@ function Banner(props) {
           基于高阶思维能力的中小学生交互式测评体系
         </p>
         <div key="button" className="button-wrapper">
-          <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
+          <a href="https://test.xsj21.com/login" target="_blank" rel="noopener noreferrer">
             <Button type="primary">
-              预览
+              用户登录
             </Button>
           </a>
           <Button style={{ margin: '0 16px' }} type="primary" ghost>

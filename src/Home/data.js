@@ -81,11 +81,11 @@ export const banner = [
   },
 ];
 export const page1 = {
-  title: '自然好用的设计',
+  title: '高阶思维能力测试',
   children: [
     {
-      title: '设计价值观',
-      content: 'Design Values',
+      title: '计算思维能力测试',
+      content: '基于数学问题解决',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
