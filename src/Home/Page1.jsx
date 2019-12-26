@@ -183,7 +183,7 @@ class Page1 extends React.PureComponent {
               Feature
             </Parallax>
           )}
-          <h2>使用  <span> OPEN CT </span>  可以做什么 </h2>
+          <h2>使用  <span> OpenCT </span>  可以做什么 </h2>
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>

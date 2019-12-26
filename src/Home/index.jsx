@@ -32,7 +32,7 @@ class Home extends React.PureComponent {
   }
   render() {
     return (
-      <DocumentTitle title="Ant Design - pro">
+      <DocumentTitle title="OpenCT">
         <div>
           <Header isMobile={this.state.isMobile} />
           <div className="home-wrapper">

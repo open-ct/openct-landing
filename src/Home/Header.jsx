@@ -26,16 +26,16 @@ class Header extends React.Component {
           <a>首页</a>
         </Menu.Item>
         <Menu.Item key="docs">
-          <a><span>文档</span></a>
+          <a><span>测试</span></a>
         </Menu.Item>
         <Menu.Item key="components">
-          <a>组件</a>
+          <a>数据</a>
         </Menu.Item>
         {
           menuMode === 'inline' && (
             <Menu.Item key="preview">
               <a target="_blank" href="http://preview.pro.ant.design/" rel="noopener noreferrer">
-                预览
+                注册
               </a>
             </Menu.Item>
           )
@@ -66,7 +66,7 @@ class Header extends React.Component {
           <Col xxl={4} xl={5} lg={8} md={8} sm={24} xs={24}>
             <div id="logo" to="/">
               <img src={LOGO_URL} alt="logo" />
-              <span>OPEN CT</span>
+              <span>OpenCT</span>
             </div>
           </Col>
           <Col xxl={20} xl={19} lg={16} md={16} sm={0} xs={0}>
@@ -75,11 +75,11 @@ class Header extends React.Component {
                 <a
                   id="preview-button"
                   target="_blank"
-                  href="http://preview.pro.ant.design"
+                  href="https://test.xsj21.com/register"
                   rel="noopener noreferrer"
                 >
                   <Button icon="eye-o">
-                    预览
+                    注册
                   </Button>
                 </a>
               </div>

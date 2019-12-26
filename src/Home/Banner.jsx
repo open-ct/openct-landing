@@ -27,7 +27,7 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">OPEN CT</h1>
+        <h1 key="h1">OpenCT</h1>
         <p key="content">
           基于高阶思维能力的中小学生交互式测评体系
         </p>

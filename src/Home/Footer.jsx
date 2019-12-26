@@ -8,35 +8,35 @@ function Footer() {
         <Row>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>OPEN CT</h2>
+              <h2>OpenCT</h2>
               <div>
                 <a target="_blank " href="https://github.com/ant-design/ant-design-pro">
-                  Ant Design Pro GitHub
+                  OpenCT GitHub
                 </a>
               </div>
               <div>
                 <a target="_blank " href="http://ant.design">
-                  OPEN CT
+                  OpenCT
                 </a>
               </div>
               <div>
-                <a href="http://mobile.ant.design">Ant Design Mobile</a>
+                <a href="http://mobile.ant.design">OpenCT Mobile</a>
               </div>
               <div>
                 <a href="http://ng.ant.design">NG-ZORRO</a>
                 <span> - </span>
-                Ant Design of Angular
+                OpenCT of Angular
               </div>
               <div>
                 <a target="_blank " href="https://github.com/websemantics/awesome-ant-design">
-                  Awesome Ant Design
+                  Awesome OpenCT
                 </a>
               </div>
             </div>
           </Col>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>Ant Design</h2>
+              <h2>OpenCT</h2>
               <div>
                 <a href="http://scaffold.ant.design">Scaffolds</a>
                 <span> - </span>
@@ -109,14 +109,14 @@ function Footer() {
                 更多产品
               </h2>
               <div>
-                <a target="_blank" rel="noopener" href="http://ant.design/">Ant Design</a>
+                <a target="_blank" rel="noopener" href="http://ant.design/">OpenCT</a>
                 <span> - </span>
-                <span>蚂蚁 UI 设计体系</span>
+                <span>OpenCT 设计体系</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="https://antv.alipay.com/">AntV</a>
+                <a target="_blank" rel="noopener" href="https://antv.alipay.com/">OpenCT</a>
                 <span> - </span>
-                <span>蚂蚁数据可视化方案</span>
+                <span>OpenCT数据可视化方案</span>
               </div>
               <div>
                 <a target="_blank" rel="noopener" href="https://eggjs.org/">Egg</a>
@@ -161,8 +161,8 @@ function Footer() {
               权益保障承诺书
             </a>
           </span>
-          <span style={{ marginRight: 12 }}>ICP 证浙 B2-2-100257</span>
-          <span style={{ marginRight: 12 }}>Copyright © 蚂蚁金融服务集团</span>
+          <span style={{ marginRight: 12 }}>ICP 证京 B2-2-100257</span>
+          <span style={{ marginRight: 12 }}>Copyright © OpenCT国际联盟</span>
         </Col>
       </Row>
     </footer>
