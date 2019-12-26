@@ -26,16 +26,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '罗海风' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '博士生',
             },
           ],
         },
@@ -54,7 +54,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: 'XX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -63,7 +63,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -82,7 +82,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'XXX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -91,7 +91,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -110,7 +110,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'XXX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -119,7 +119,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -138,7 +138,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: 'XX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -147,7 +147,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -166,7 +166,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'XXX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -175,7 +175,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -194,7 +194,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'XXX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -203,7 +203,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -222,7 +222,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: 'XX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -231,7 +231,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
@@ -250,7 +250,7 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'XXX' },
             {
               name: 'content',
               className: 'teams2-job',
@@ -259,7 +259,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '北京师范大学  中国基础教育质量监测协同创新中心',
             },
           ],
         },
