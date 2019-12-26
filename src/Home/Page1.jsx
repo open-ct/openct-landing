@@ -44,8 +44,8 @@ const featuresCN = [
     shadowColor: 'rgba(250,173,20,.12)',
   },
   {
-    title: '国际视野',
-    content: '汇聚国际一流测评构念',
+    title: '即时报告反馈体系',
+    content: '自动化即时报告生成',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/JsixxWSViARJnQbAAPkI.svg',
     color: '#722ED1',
     shadowColor: 'rgba(114,46,209,.12)',
