@@ -177,7 +177,7 @@ class Page1 extends React.PureComponent {
           {!this.props.isMobile && (
             <Parallax
               className="page1-bg"
-              animation={{ translateY: 200, ease: 'linear', playScale: [0, 1.65] }}
+              animation={{ translateY: -600, ease: 'linear', playScale: [0, 1.65] }}
               location="page1-wrapper"
             >
               Feature
