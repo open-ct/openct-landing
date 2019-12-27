@@ -172,7 +172,7 @@ class Page1 extends React.PureComponent {
       </div>
     ));
     return (
-      <div className="home-page page1" >
+      <div className="home-page" >
         <div className="home-page-wrapper" id="page1-wrapper">
           {!this.props.isMobile && (
             <Parallax
