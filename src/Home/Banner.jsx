@@ -37,7 +37,7 @@ function Banner(props) {
               用户登录
             </Button>
           </a>
-          <a href="https://exam.xsj21.com/ticket-login" target="_blank" rel="noopener noreferrer">
+          <a href="https://exam.xsj21.com/ticket-login-card" target="_blank" rel="noopener noreferrer">
             <Button style={{ margin: '0 16px' }} type="primary" ghost>
               开始测试
             </Button>
