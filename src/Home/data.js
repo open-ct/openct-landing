@@ -89,7 +89,7 @@ export const page1 = {
       src: 'https://gw.alipayobjects.com/zos/rmsportal/vUxYuDdsbBBcMDxSGmwc.svg',
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
-      link: 'https://test.xsj21.com/ticket-login',
+      link: 'https://exam.xsj21.com/ticket-login',
     },
     {
       title: '文化理解与传承',
