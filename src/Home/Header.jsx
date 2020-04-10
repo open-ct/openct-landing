@@ -22,24 +22,26 @@ class Header extends React.Component {
 
     const menu = (
       <Menu mode={menuMode} id="nav" key="nav">
-        <Menu.Item key="home">
-          <a>首页</a>
+        <Menu.Item key="landing">
+          <a href="/landing">
+            首页
+          </a>
         </Menu.Item>
-        <Menu.Item key="docs">
-          <a><span>测试</span></a>
+        <Menu.Item key="ticket">
+          <a href="/ticket-login-card">
+            学生登录
+          </a>
         </Menu.Item>
-        <Menu.Item key="components">
-          <a>数据</a>
+        <Menu.Item key="login">
+          <a href="/login">
+            教师登录
+          </a>
         </Menu.Item>
-        {
-          menuMode === 'inline' && (
-            <Menu.Item key="preview">
-              <a target="_blank" href="http://preview.pro.ant.design/" rel="noopener noreferrer">
-                注册
-              </a>
-            </Menu.Item>
-          )
-        }
+        <Menu.Item key="register">
+          <a href="/register">
+            用户注册
+          </a>
+        </Menu.Item>
       </Menu>
     );
 
@@ -70,18 +72,18 @@ class Header extends React.Component {
           </Col>
           <Col xxl={20} xl={19} lg={16} md={16} sm={0} xs={0}>
             <div className="header-meta">
-              <div id="preview">
-                <a
-                  id="preview-button"
-                  target="_blank"
-                  href="https://exam.xsj21.com/register"
-                  rel="noopener noreferrer"
-                >
-                  <Button icon="eye-o">
-                    注册
-                  </Button>
-                </a>
-              </div>
+              {/*<div id="preview">*/}
+              {/*  <a*/}
+              {/*    id="preview-button"*/}
+              {/*    target="_blank"*/}
+              {/*    href="https://exam.xsj21.com/register"*/}
+              {/*    rel="noopener noreferrer"*/}
+              {/*  >*/}
+              {/*    <Button icon="eye-o">*/}
+              {/*      注册*/}
+              {/*    </Button>*/}
+              {/*  </a>*/}
+              {/*</div>*/}
               {menuMode === 'horizontal' ? <div id="menu">{menu}</div> : null}
             </div>
           </Col>

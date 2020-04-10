@@ -32,19 +32,19 @@ function Banner(props) {
           基于高阶思维能力的中小学生交互式测评体系
         </p>
         <div key="button" className="button-wrapper">
-          <a href="https://exam.xsj21.com/login" target="_blank" rel="noopener noreferrer">
+          <a href="/login">
             <Button type="primary">
-              用户登录
+              开始命题
             </Button>
           </a>
-          <a href="https://exam.xsj21.com/ticket-login-card" target="_blank" rel="noopener noreferrer">
+          <a href="/ticket-login-card">
             <Button style={{ margin: '0 16px' }} type="primary" ghost>
-              开始测试
+              学生测试
             </Button>
           </a>
-          <a href="https://exam.xsj21.com/register" target="_blank" rel="noopener noreferrer">
+          <a href="/register">
             <Button type="primary">
-              注册
+              用户注册
             </Button>
           </a>
         </div>
