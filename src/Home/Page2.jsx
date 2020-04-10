@@ -10,7 +10,7 @@ function Page2() {
         <div className="title-line-wrapper page2-line">
           <div className="title-line" />
         </div>
-        <h2><span>测试案例</span></h2>
+        <h2><span>功能案例</span></h2>
         <OverPack>
           <QueueAnim key="queue" type="bottom" leaveReverse className="page2-content">
             <p key="p" className="page-content">
@@ -25,7 +25,7 @@ function Page2() {
               <div>$ <span>整合填空模块</span> 多类型填空题</div>
             </div>
            <div key="button" style={{ marginTop: 88 }}>
-              <a href="https://exam.xsj21.com/ticket-login-card" target="_blank" rel="noopener noreferrer">
+              <a href="/ticket-login-card" target="_blank" rel="noopener noreferrer">
                 <Button type="primary">开始测试</Button>
               </a>
             </div>

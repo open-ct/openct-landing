@@ -76,7 +76,7 @@ class Header extends React.Component {
               {/*  <a*/}
               {/*    id="preview-button"*/}
               {/*    target="_blank"*/}
-              {/*    href="https://exam.xsj21.com/register"*/}
+              {/*    href="/register"*/}
               {/*    rel="noopener noreferrer"*/}
               {/*  >*/}
               {/*    <Button icon="eye-o">*/}

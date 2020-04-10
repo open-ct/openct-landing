@@ -96,7 +96,10 @@ export default class Design extends React.PureComponent {
       <div className="page-wrapper page1">
         <div className="page">
           <h1>{page1.title}</h1>
-          <i />
+          {/*<i />*/}
+          <div className="title-line-wrapper page1-line" style={{marginBottom: "-30px"}}>
+            <div className="title-line" />
+          </div>
           <OverPack>
             <QueueAnim key="queue" type="bottom" leaveReverse component={Row}>
               {children}
