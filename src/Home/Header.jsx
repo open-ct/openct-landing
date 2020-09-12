@@ -3,7 +3,7 @@ import { Row, Col, Icon, Menu, Button, Popover } from 'antd';
 
 import { enquireScreen } from 'enquire-js';
 
-const LOGO_URL = 'https://openctcdn.xsj21.com/logo/openct.png';
+const LOGO_URL = 'https://cdn.open-ct.com/logo/openct.png';
 
 class Header extends React.Component {
   state = {
