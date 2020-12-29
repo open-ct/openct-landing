@@ -26,11 +26,15 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '罗海风' },
             {
-              name: 'content',
-              className: 'teams2-job',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              name: 'content1',
+              className: 'teams2-content',
+              children: '博士生',
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: '博士生',
             },
             {
               name: 'content1',
@@ -63,7 +67,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -91,7 +95,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -119,7 +123,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -147,7 +151,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -175,7 +179,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -203,7 +207,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -231,7 +235,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
@@ -259,7 +263,7 @@ export const Teams20DataSource = {
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '北京师范大学  中国基础教育质量监测协同创新中心',
+              children: 'OpenCT开发项目组',
             },
           ],
         },
