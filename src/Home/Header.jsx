@@ -42,6 +42,11 @@ class Header extends React.Component {
             用户注册
           </a>
         </Menu.Item>
+        <Menu.Item key="bbs">
+          <a href="https://bbs.open-ct.com">
+            在线论坛
+          </a>
+        </Menu.Item>
       </Menu>
     );
 
