@@ -183,7 +183,7 @@ class Page1 extends React.PureComponent {
               Feature
             </Parallax>
           )}
-          <h2>使用  <span> OpenCT </span>  可以做什么 </h2>
+          <h2>指向5C核心素养的<span>结构</span>体系</h2>
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>

@@ -81,10 +81,10 @@ export const banner = [
   },
 ];
 export const page1 = {
-  title: '高阶思维能力测试',
+  title: '高阶思维能力测试版块',
   children: [
     {
-      title: '计算思维',
+      title: '数学建模',
       content: 'Computational Thinking',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/vUxYuDdsbBBcMDxSGmwc.svg',
       color: '#EB2F96',
@@ -92,7 +92,7 @@ export const page1 = {
       link: '/ticket-login-card',
     },
     {
-      title: '文化理解与传承',
+      title: '智能计算思维',
       content: 'Culture Competency',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
       color: '#1890FF',
@@ -100,7 +100,7 @@ export const page1 = {
       link: 'https://ant.design/docs/spec/colors-cn',
     },
     {
-      title: '审辩思维',
+      title: '文化理解与创新',
       content: 'Critical Thinking',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/eLtHtrKjXfabZfRchvVT.svg',
       color: '#AB33F7',
@@ -108,7 +108,7 @@ export const page1 = {
       link: 'https://antv.alipay.com/zh-cn/vis/index.html',
     },
     {
-      title: '创新',
+      title: '跨学科问题解决',
       content: 'Creativity',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/QCcDSfdbCIbVSsUZJaQK.svg',
       color: '#EB2F96',
@@ -116,7 +116,7 @@ export const page1 = {
       link: 'https://ant.design/docs/spec/values-cn',
     },
     {
-      title: '沟通',
+      title: '审辩阅读',
       content: 'Communication',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/hMSnSxMzmiGSSIXxFtNf.svg',
       color: '#fadb14',
@@ -124,7 +124,7 @@ export const page1 = {
       link: 'https://ant.design/docs/spec/colors-cn',
     },
     {
-      title: '合作',
+      title: '创造力倾向',
       content: 'Collaboration',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/OMEOieDFPYDcWXMpqqzd.svg',
       color: '#2f54eb',

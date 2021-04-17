@@ -29,7 +29,7 @@ function Banner(props) {
         </div>
         <h1 key="h1">OpenCT</h1>
         <p key="content">
-          基于高阶思维能力的中小学生交互式测评体系
+          指向5C核心素养的在线交互式高阶思维能力测评体系
         </p>
         <div key="button" className="button-wrapper">
           <a href="/login">

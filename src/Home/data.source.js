@@ -27,19 +27,19 @@ export const Teams20DataSource = {
           className: 'teams2-textWrapper',
           children: [
             {
-              name: 'content1',
-              className: 'teams2-content',
-              children: '博士生',
+              name: 'title',
+              className: 'teams2-title',
+              children: '谢志勇',
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: '2018级博士生',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '博士生',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: '博士生',
+              children: '赣南师范大学研究生导师',
             },
           ],
         },
@@ -58,16 +58,20 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XX' },
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: '罗海风',
+            },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '2017级博士生',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -86,16 +90,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XXX' },
+            { name: 'title', className: 'teams2-title', children: '刘启蒙' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '中国教育创新研究院教师',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -114,16 +118,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XXX' },
+            { name: 'title', className: 'teams2-title', children: '王田' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '2020级博士生',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -142,16 +146,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XX' },
+            { name: 'title', className: 'teams2-title', children: '董晓舒' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '2019级博士生',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -170,16 +174,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XXX' },
+            { name: 'title', className: 'teams2-title', children: '王佳敏' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '区域教育质量健康体检项目组老师',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -198,16 +202,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XXX' },
+            { name: 'title', className: 'teams2-title', children: '赵萍萍' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '北京师范大学博士后',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -226,16 +230,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XX' },
+            { name: 'title', className: 'teams2-title', children: '胡梦玥' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '区域教育质量健康体检项目组老师',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
@@ -254,16 +258,16 @@ export const Teams20DataSource = {
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: 'XXX' },
+            { name: 'title', className: 'teams2-title', children: '董瑶瑶' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '17级硕士生',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'OpenCT开发项目组',
+              children: '高阶思维能力测试组成员',
             },
           ],
         },
