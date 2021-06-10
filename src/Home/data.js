@@ -115,13 +115,20 @@ export const page1 = {
       shadowColor: 'rgba(166, 55, 112, 0.08)',
       link: 'https://ant.design/docs/spec/values-cn',
     },
-    {
-      title: '审辩阅读',
-      content: 'Communication',
-      src: 'https://gw.alipayobjects.com/zos/rmsportal/hMSnSxMzmiGSSIXxFtNf.svg',
-      color: '#fadb14',
-      shadowColor: 'rgba(191, 188, 21, 0.08)',
-      link: 'https://ant.design/docs/spec/colors-cn',
+      {
+        //将项目式学习嵌入社区网页之中
+        title: '项目式学习',
+        content: 'Project-based learning',
+        src: 'https://gw.alipayobjects.com/zos/rmsportal/hMSnSxMzmiGSSIXxFtNf.svg',
+        color: '#fadb14',
+        shadowColor: 'rgba(191, 188, 21, 0.08)',
+        link: 'http://epbl.aicfe.cn/epbl/#/login',
+        //title: '审辩阅读',
+      //content: 'Communication',
+      //src: 'https://gw.alipayobjects.com/zos/rmsportal/hMSnSxMzmiGSSIXxFtNf.svg',
+      //color: '#fadb14',
+      //shadowColor: 'rgba(191, 188, 21, 0.08)',
+      //link: 'https://ant.design/docs/spec/colors-cn',
     },
     {
       title: '创造力倾向',
@@ -130,7 +137,7 @@ export const page1 = {
       color: '#2f54eb',
       shadowColor: 'rgba(73, 101, 166, 0.08)',
       link: 'https://antv.alipay.com/zh-cn/vis/index.html',
-    },
+      },
   ],
 };
 

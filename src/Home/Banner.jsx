@@ -47,6 +47,7 @@ function Banner(props) {
               用户注册
             </Button>
           </a>
+
         </div>
       </QueueAnim>
       {!props.isMobile && (

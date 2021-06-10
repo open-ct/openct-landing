@@ -3,6 +3,7 @@ import { Row, Col, Icon, Menu, Button, Popover } from 'antd';
 
 import { enquireScreen } from 'enquire-js';
 
+//Page页面图标
 const LOGO_URL = 'https://cdn.open-ct.com/logo/openct.png';
 
 class Header extends React.Component {
@@ -16,7 +17,7 @@ class Header extends React.Component {
       this.setState({ menuMode: b ? 'inline' : 'horizontal' });
     });
   }
-
+//渲染
   render() {
     const { menuMode, menuVisible } = this.state;
 

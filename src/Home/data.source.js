@@ -52,7 +52,8 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
+            children:
+                //'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fitem%2F201509%2F12%2F20150912163909_CPUey.jpeg&refer=http%3A%2F%2Fcdn.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625879477&t=9456277db028b36c5f6e6a3d2002217e'
             'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
         },
         titleWrapper: {
@@ -271,7 +272,8 @@ export const Teams20DataSource = {
             },
           ],
         },
-      },
+        },
+        
     ],
   },
 };

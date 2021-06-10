@@ -3,6 +3,7 @@ import { OverPack } from 'rc-scroll-anim';
 import QueueAnim from 'rc-queue-anim';
 import { Button } from 'antd';
 
+
 function Page2() {
   return (
     <div className="home-page page2">
@@ -10,30 +11,39 @@ function Page2() {
         <div className="title-line-wrapper page2-line">
           <div className="title-line" />
         </div>
-        <h2><span>细节功能</span></h2>
-        <OverPack>
-          <QueueAnim key="queue" type="bottom" leaveReverse className="page2-content">
-            <p key="p" className="page-content">
-              集成选择、填空、拖拽、可视化编程等多种题型
-            </p>
-            <div key="code1" className="home-code">
-              <div>
-                $ <span>可视化编程</span> 集成块状编程系统
-              </div>
-              <div>$ <span>嵌入拖拽组件</span> 多模式拖拽</div>
-              <div>$ <span>设置选择模块</span> 多种选择题型</div>
-              <div>$ <span>整合填空模块</span> 多类型填空题</div>
-            </div>
-           <div key="button" style={{ marginTop: 88 }}>
-              <a href="/ticket-login-card" target="_blank" rel="noopener noreferrer">
-                <Button type="primary">开始测试</Button>
-              </a>
-            </div>
-          </QueueAnim>
-        </OverPack>
+        <h2><span>Mushi的项目式系统入口</span></h2>
+              <OverPack>
+                  <QueueAnim key="queue" type="bottom" leaveReverse className="page2-content">
+                      <p key="p" className="page-content"> 优质资源 多样化工具 个性化评测 </p>
+
+                      <div className="nbb666">
+                          <div className="nb666">
+                              <div className="loginpage-system_partItem">
+
+                                  <img src="https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ" style={{ marginLeft: 30 }}></img>
+                                  <img src="https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ" style={{ marginLeft: 30 }}></img>
+                                  <img src="https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ" style={{ marginLeft: 30 }}></img>
+                              </div>
+                          </div>
+                          
+                          <p style={{ marginTop: 20 }}>
+                              开始项目式学习~
+                          </p>
+
+                      </div>
+                      <div key="button" style={{ marginTop: 44 }}>
+                          <a href="/ticket-login-card" target="_blank" rel="noopener noreferrer">
+                              <Button type="primary">System Start</Button>
+                          </a>
+                      </div>
+                  </QueueAnim>
+              </OverPack>
+
       </div>
     </div>
   );
 }
 
+
 export default Page2;
+

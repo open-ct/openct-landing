@@ -6,10 +6,11 @@ import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 
 const { TweenOneGroup } = TweenOne;
-
+//第二个模块的图标以及文字
 const featuresCN = [
   {
     title: '聚焦高阶思维',
+    //title:'?就这',
     content: '基于 5C 核心素养设计',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/VriUmzNjDnjoFoFFZvuh.svg',
     color: '#13C2C2',
@@ -63,7 +64,8 @@ const featuresCN = [
     src: 'https://gw.alipayobjects.com/zos/rmsportal/aLQyKyUyssIUhHTZqCIb.svg',
     color: '#EB2F96',
     shadowColor: 'rgba(235,45,150,.12)',
-  },
+    },
+
 ];
 
 const pointPos = [

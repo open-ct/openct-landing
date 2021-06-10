@@ -30,23 +30,40 @@ class Home extends React.PureComponent {
       });
     });
   }
-  render() {
-    return (
-      <DocumentTitle title="OpenCT">
-        <div>
-          <Header isMobile={this.state.isMobile} />
-          <div className="home-wrapper">
-            <Banner isMobile={this.state.isMobile} />
-            <TestPage isMobile={this.state.isMobile} />
-            <Page1 isMobile={this.state.isMobile} />
-            <Page2 />
-            <Teams2 dataSource={Teams20DataSource} isMobile={this.state.isMobile} />
-          </div>
-          <Footer />
-        </div>
-      </DocumentTitle>
-    );
-  }
+ // render() {
+ //   return (
+ //     <DocumentTitle title="OpenCT">
+ //       <div>
+ //         <Header isMobile={this.state.isMobile} />
+ //         <div className="home-wrapper">
+ //           <Banner isMobile={this.state.isMobile} />
+ //           <TestPage isMobile={this.state.isMobile} />
+ //           <Page1 isMobile={this.state.isMobile} />
+ //           <Page2 />
+ //           <Teams2 dataSource={Teams20DataSource} isMobile={this.state.isMobile} />
+ //         </div>
+ //         <Footer />
+ //       </div>
+ //     </DocumentTitle>
+ //   );
+ //   }
+    render() {
+        return (
+            <DocumentTitle title="OpenCT">
+                <div>
+                    <Header isMobile={this.state.isMobile} />
+                    <div className="home-wrapper">
+                        <Banner isMobile={this.state.isMobile} />
+                        <TestPage isMobile={this.state.isMobile} />
+                        <Page1 isMobile={this.state.isMobile} />
+                        <Page2 />
+                        <Teams2 dataSource={Teams20DataSource} isMobile={this.state.isMobile} />
+                    </div>
+                    <Footer />
+                </div>
+            </DocumentTitle>
+        );
+    }
 }
 
 export default Home;
