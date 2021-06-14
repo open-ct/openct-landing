@@ -4,7 +4,8 @@
     "index": "./index.js"
   },
   "dependencies": {
-    "antd": "^2.13.10",
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.16.2",
     "enquire-js": "^0.1.0",
     "prop-types": "^15.6.0",
     "rc-queue-anim": "^1.4.0",
@@ -13,7 +14,8 @@
     "react": "^16.1.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
-    "react-github-button": "^0.1.11"
+    "react-github-button": "^0.1.11",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "atool-build": "^1.0.2",

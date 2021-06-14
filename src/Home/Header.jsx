@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Row, Col, Icon, Menu, Button, Popover } from 'antd';
 
 import { enquireScreen } from 'enquire-js';
@@ -23,22 +24,27 @@ class Header extends React.Component {
     const menu = (
       <Menu mode={menuMode} id="nav" key="nav">
         <Menu.Item key="landing">
-          <a href="/landing">
+          <a href="#/landing">
             首页
           </a>
         </Menu.Item>
+        <Menu.Item key="project">
+          <a href="#/project">
+            项目学习
+          </a>
+        </Menu.Item>
         <Menu.Item key="ticket">
-          <a href="/ticket-login-card">
+          <a href="#/ticket-login-card">
             学生登录
           </a>
         </Menu.Item>
         <Menu.Item key="login">
-          <a href="/login">
+          <a href="#/login">
             教师登录
           </a>
         </Menu.Item>
         <Menu.Item key="register">
-          <a href="/register">
+          <a href="#/register">
             用户注册
           </a>
         </Menu.Item>
