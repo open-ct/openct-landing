@@ -1,11 +1,11 @@
 import React from 'react';
 
+import ProjectList from './ProjectList';
+
 class FinishedProject extends React.PureComponent {
   render() {
     return (
-      <div>
-        学习中
-      </div>
+      <ProjectList url="project-list/finished" />
     );
   }
 }

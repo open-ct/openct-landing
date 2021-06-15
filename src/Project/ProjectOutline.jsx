@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Collapse, Divider, Progress } from 'antd';
 
 import { Link } from 'react-router-dom';
 
 const { Panel } = Collapse;
 
-function onSelect() {
-
-}
-
-const outline = [
+const outlineList = [
   {
     title: '第一章',
     sub: [
@@ -34,7 +30,13 @@ const outline = [
   },
 ];
 
-function ProjectOutline() {
+function ProjectOutline(obj) {
+  const [outline, setOutline] = useState([]);
+  useEffect(() => {
+    const project = obj.project;
+    // TODO axios get outline
+    setOutline(outlineList);
+  });
   return (
     <div>
       <Collapse ghost>
@@ -53,7 +55,7 @@ function ProjectOutline() {
                             '100%': '#87d068',
                           }}
                           strokeWidth={10}
-                          width={30}
+                          width={25}
                           percent={subItem.percent}
                         />
                         <span style={{ marginLeft: '10px' }}>{subItem.title}</span>

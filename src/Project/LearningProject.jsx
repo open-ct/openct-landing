@@ -1,16 +1,11 @@
 import React from 'react';
-import { Row, Col, Card } from 'antd';
-import { LearningProjectList } from './data';
+
+import ProjectList from './ProjectList';
 
 class LearningProject extends React.PureComponent {
-  state = {
-    learningProjectList: LearningProjectList,
-  }
   render() {
     return (
-      <div>
-
-      </div>
+      <ProjectList url="project-list/learning" />
     );
   }
 }

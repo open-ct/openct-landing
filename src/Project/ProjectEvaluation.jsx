@@ -1,10 +1,10 @@
 import React from 'react';
 
 function ProjectEvaluation(obj) {
-  const pid = obj.id;
+  const project = obj.project;
   return (
     <div>
-      <p>{pid}</p>
+      <p>{project.id}</p>
     </div>
   );
 }
