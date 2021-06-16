@@ -53,10 +53,10 @@ function ProjectList(obj) {
       </Card>
 
       <div className="project-list" key="1">
-        <Row gutter={[10, 10]}>
+        <Row gutter={[10, 10]} >
           {
             learningProjectList.map((item, index) => (
-              <Col key={index.toString()} flex="auto" style={{ maxWidth: '300px' }}>
+              <Col key={index.toString()} style={{ width: '300px' }}>
                 <Link to={`/project-info/${item.id}`}>
                   <Card
                     hoverable
