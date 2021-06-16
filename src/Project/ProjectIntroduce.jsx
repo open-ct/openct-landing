@@ -10,8 +10,8 @@ function ProjectIntroduce(obj) {
     <div>
       <p>学科：{project.subjects}</p>
       <p>技能：{project.skills}</p><br />
-      <h2><UnorderedListOutlined />&nbsp;&nbsp;项目简介</h2><br />
-      <p>{project.introduce}</p>
+      <h2><UnorderedListOutlined />&nbsp;&nbsp;项目简介</h2>
+      <p>{project.introduce}</p><br />
       <h2><RiseOutlined />&nbsp;&nbsp;项目目标</h2>
       <p>{project.introduce}</p><br />
     </div>

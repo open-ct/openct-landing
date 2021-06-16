@@ -13,7 +13,7 @@ export const LearningProjectList = [
   {
     id: '0002',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
-    title: '“神奇动物在哪里” 项目式学习',
+    title: '“神奇动物在哪里” 项目式学习,“神奇动物在哪里” 项目式学习,“神奇动物在哪里” 项目式学习,“神奇动物在哪里” 项目式学习',
     subjects: '科学 其它',
     skills: '学习与创新，生活与职业技能',
     createTime: '2021-06-06',
@@ -24,7 +24,7 @@ export const LearningProjectList = [
   {
     id: '0003',
     image: 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png',
-    title: '“神奇动物在哪里” 项目式学习',
+    title: '学习',
     subjects: '科学 其它',
     skills: '学习与创新，生活与职业技能',
     createTime: '2021-06-06',

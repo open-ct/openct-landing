@@ -1,11 +1,12 @@
 import React from 'react';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu, Breadcrumb, Affix } from 'antd';
 
 import LearningProject from './LearningProject';
 
 import './static/sider.less';
 import PublicProject from './PublicProject';
 import FinishedProject from './FinishedProject';
+import Bread from './Bread';
 
 const { SubMenu } = Menu;
 const { Sider, Content } = Layout;
@@ -13,7 +14,7 @@ const { Sider, Content } = Layout;
 class MenuBar extends React.PureComponent {
   state = {
     menu: 'public',
-    locationList: ['项目学习', '公共项目'],
+    top: 10,
   }
 
   handleClick = (e) => {
@@ -23,43 +24,40 @@ class MenuBar extends React.PureComponent {
   }
 
   render() {
-    const { menu, locationList } = this.state;
+    const { menu, top } = this.state;
 
     return (
       <div>
-        <Breadcrumb className="bread-crumb" separator=">">
-          {
-            locationList.map((item, index) => {
-              return <Breadcrumb.Item key={index}>{item}</Breadcrumb.Item>;
-            })
-          }
-        </Breadcrumb>
-
+        <Bread />
         <Layout>
-          <Sider
-            breakpoint="lg"
-            collapsedWidth="0"
-          >
-            <Menu
-              onClick={this.handleClick}
-              className="menu-bar"
-              defaultOpenKeys={['my-project']}
-              defaultSelectedKeys={['public']}
-              mode="inline"
+          <Affix offsetTop={top}>
+            <Sider
+              breakpoint="lg"
+              collapsedWidth="0"
+              style={{ height: '100%', backgroundColor: '#f2f4f5' }}
             >
-              <Menu.Item className="menu-item" key="public">
-                公共项目
-              </Menu.Item>
-              <SubMenu className="menu-item" key="my-project" title="我的项目">
-                <Menu.Item key="learning">
-                  进行中
+              <Menu
+                onClick={this.handleClick}
+                className="menu-bar"
+                defaultOpenKeys={['my-project']}
+                defaultSelectedKeys={['public']}
+                mode="inline"
+              >
+                <Menu.Item className="menu-item" key="public">
+                  公共项目
                 </Menu.Item>
-                <Menu.Item key="finished">
-                  已完成
-                </Menu.Item>
-              </SubMenu>
-            </Menu>
-          </Sider>
+                <SubMenu className="menu-item" key="my-project" title="我的项目">
+                  <Menu.Item key="learning">
+                    进行中
+                  </Menu.Item>
+                  <Menu.Item key="finished">
+                    已完成
+                  </Menu.Item>
+                </SubMenu>
+              </Menu>
+            </Sider>
+          </Affix>
+
           <Layout >
             <Content className="project-content">
               { menu === 'public' ? <PublicProject /> : null }
