@@ -20,6 +20,7 @@
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
     "react-github-button": "^0.1.11",
+    "react-pdf": "3.0.0",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "redux": "^4.1.0"
@@ -31,7 +32,7 @@
     "babel-plugin-import": "^1.6.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-runtime": "^6.26.0",
-    "dora": "^0.4.5",
+    "dora": "^0.6.1",
     "dora-plugin-webpack": "^1.0.0",
     "eslint": "^4.11.0",
     "eslint-config-airbnb": "^16.1.0",

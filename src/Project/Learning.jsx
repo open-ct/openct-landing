@@ -1,7 +1,7 @@
 import React from 'react';
-import { Affix, Collapse, Divider, Layout, Progress } from 'antd';
+import { Affix, Collapse, Divider, Layout, Progress, Upload, message, Button } from 'antd';
 import { Document, Page } from 'react-pdf';
-import { FilePptOutlined, PlayCircleOutlined } from '@ant-design/icons';
+import { FilePptOutlined, PlayCircleOutlined, UploadOutlined } from '@ant-design/icons';
 import Header from '../Home/Header';
 import Bread from './Bread';
 
@@ -53,25 +53,37 @@ class Learning extends React.PureComponent {
   state = {
     outline: outlineList,
     title: '',
-    pdf: '',
-    video: '',
+    uploadUrl: 'http://localhost:9000',
+    pdfUrl: '',
     numPages: null,
     pageNumber: '1',
     defaultKey: ['0'],
   }
+  onDocumentLoadSuccess = (numPages) => {
+    this.setState({
+      numPages,
+    });
+  };
+  onUploadFile = (info) => {
+    if (info.file.status !== 'uploading') {
+      console.log(info.file, info.fileList);
+    }
+    if (info.file.status === 'done') {
+      message.success(`${info.file.name} 文件上传成功`);
+    } else if (info.file.status === 'error') {
+      message.error(`${info.file.name} 文件上传失败`);
+    }
+  }
   chooseItem = (item, subItem) => {
     console.log(item, subItem);
     this.setState({
-      title: `${item.title }  ${ subItem.title}`,
+      title: `${item.title}  ${subItem.title}`,
     });
-  };
-  onDocumentLoadSuccess = (numPages) => {
-    this.setState({
-      numPages: numPages,
-    });
-  };
+  }
   render() {
-    const { outline, defaultKey, title, pageNumber, numPages } = this.state;
+    const {
+      outline, defaultKey, title, pageNumber, numPages, uploadUrl, pdfUrl
+    } = this.state;
     return (
       <div>
         <Header />
@@ -164,8 +176,18 @@ class Learning extends React.PureComponent {
               }}
             >
               <h2 style={{ textAlign: 'center' }}>{title}</h2>
+              <Upload
+                name="file"
+                action={uploadUrl}
+                headers={{
+                  authorization: 'authorization-text',
+                }}
+                onChange={this.onUploadFile}
+              >
+                <Button icon={<UploadOutlined />} >上传文件</Button>
+              </Upload>
               <Document
-                file="./static/test.pdf"
+                file={pdfUrl}
                 onLoadSuccess={this.onDocumentLoadSuccess}
               >
                 <Page pageNumber={pageNumber} />
