@@ -34,12 +34,12 @@ class Header extends React.Component {
           </a>
         </Menu.Item>
         <Menu.Item key="ticket">
-          <a href="#/ticket-login-card">
+          <a href="#/login/student">
             学生登录
           </a>
         </Menu.Item>
         <Menu.Item key="login">
-          <a href="#/login">
+          <a href="#/login/teacher">
             教师登录
           </a>
         </Menu.Item>
