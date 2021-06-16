@@ -4,6 +4,7 @@ import { enquireScreen } from 'enquire-js';
 import { Card, Divider, Image, Row, Col, Button, Menu } from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import localStorage from 'localStorage';
+import { Link } from 'react-router-dom';
 
 
 import Header from '../Home/Header';
@@ -42,7 +43,7 @@ class ProjectInfo extends React.PureComponent {
       project: projectInfo,
       menu: 'project-introduce',
       type: localStorage.getItem('type'),
-      isMobile,
+      isMobile: isMobile,
     };
   }
   componentDidMount() {
@@ -58,11 +59,11 @@ class ProjectInfo extends React.PureComponent {
     });
   }
   render() {
-    const { project, menu, type } = this.state;
+    const { project, menu, type, isMobile } = this.state;
     return (
       <DocumentTitle title="Project">
         <div style={{ backgroundColor: '#f2f4f5' }}>
-          <Header isMobile={this.state.isMobile} />
+          <Header isMobile={isMobile} />
           <Bread />
           <div
             style={{
@@ -113,19 +114,49 @@ class ProjectInfo extends React.PureComponent {
                         <br />
                         {
                           type === 'student' ?
-                            <Button
-                              type="primary"
-                              shape="round"
-                              size="large"
-                              style={{ float: 'right' }}
-                            >
-                              {project.learning === true ? '继续学习' : '加入学习'}
-                            </Button> :
                             <div>
-                              <Button>
+                              {project.learning ?
+                                <Link to={`/project-learning/${project.id}`}>
+                                  <Button
+                                    shape="round"
+                                    size="large"
+                                    style={{ float: 'right' }}
+                                  >继续学习
+                                  </Button>
+                                </Link>
+                                :
+                                <Button
+                                  type="primary"
+                                  shape="round"
+                                  size="large"
+                                  style={{ float: 'right' }}
+                                >加入学习
+                                </Button>
+                              }
+                            </div>
+                            :
+                            <div style={{ float: 'right' }} >
+                              <Link to={`/project-learning/${project.id}`}>
+                                <Button
+                                  shape="round"
+                                  size="large"
+                                  style={{ marginRight: '20px' }}
+                                >
+                                  预览项目
+                                </Button>
+                              </Link>
+                              <Button
+                                shape="round"
+                                size="large"
+                                style={{ marginRight: '20px' }}
+                              >
                                 学生管理
                               </Button>
-                              <Button type="warning">
+                              <Button
+                                shape="round"
+                                size="large"
+                                danger
+                              >
                                 结束项目
                               </Button>
                             </div>
