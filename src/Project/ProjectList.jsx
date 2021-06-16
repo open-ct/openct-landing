@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Divider, Image, Pagination, Row } from 'antd';
-import { EyeOutlined, TeamOutlined } from '@ant-design/icons';
+import QueueAnim from 'rc-queue-anim';
+import { Card, Col, Divider, Image, Pagination, Row, Input } from 'antd';
+import { EyeOutlined, TeamOutlined, ZoomInOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { LearningProjectList } from './data';
 import './static/project.less';
-import QueueAnim from 'rc-queue-anim';
 
 const { Meta } = Card;
-
+const { Search } = Input;
 
 function ProjectList(obj) {
   const [learningProjectList, setLearningProjectList] = useState(LearningProjectList);
@@ -29,8 +29,29 @@ function ProjectList(obj) {
     }, 100);
   }, []);
 
+  const onSearch = (value) => {
+
+  };
   return (
     <QueueAnim className="queue-simple">
+      <Card style={{ backgroundColor: '#f2f4f5' }}>
+        <Row>
+          <Col span={2}></Col>
+          <Col span={20}>
+            <Search
+              size="large"
+              placeholder="搜索"
+              onSearch={onSearch}
+              style={{
+                marginLeft: '20px',
+                marginRight: '20px',
+              }}
+            />
+          </Col>
+          <Col span={2}></Col>
+        </Row>
+      </Card>
+
       <div className="project-list" key="1">
         <Row gutter={[10, 10]}>
           {
