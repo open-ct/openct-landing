@@ -1,10 +1,14 @@
 import React from 'react';
 import ProjectList from './ProjectList';
+import CarouselPBL from './CarouselPBL';
 
 class PublicProject extends React.PureComponent {
   render() {
     return (
-      <ProjectList url="project-list/all" />
+      <div>
+        <CarouselPBL />
+        <ProjectList url="project-list/all" />
+      </div>
     );
   }
 }

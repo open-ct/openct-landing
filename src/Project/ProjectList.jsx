@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import QueueAnim from 'rc-queue-anim';
 import { Card, Col, Divider, Image, Pagination, Row, Input } from 'antd';
-import { EyeOutlined, TeamOutlined, ZoomInOutlined } from '@ant-design/icons';
+import { EyeOutlined, TeamOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { LearningProjectList } from './data';
 import './static/project.less';
@@ -36,7 +36,7 @@ function ProjectList(obj) {
     <QueueAnim className="queue-simple">
       <Card style={{ backgroundColor: '#f2f4f5' }}>
         <Row>
-          <Col span={2}></Col>
+          <Col span={2} />
           <Col span={20}>
             <Search
               size="large"
@@ -48,7 +48,7 @@ function ProjectList(obj) {
               }}
             />
           </Col>
-          <Col span={2}></Col>
+          <Col span={2} />
         </Row>
       </Card>
 
