@@ -35,28 +35,22 @@ function ProjectList(obj) {
   return (
     <QueueAnim className="queue-simple">
       <Card style={{ backgroundColor: '#f2f4f5' }}>
-        <Row>
-          <Col span={2} />
-          <Col span={20}>
-            <Search
-              size="large"
-              placeholder="搜索"
-              onSearch={onSearch}
-              style={{
-                marginLeft: '20px',
-                marginRight: '20px',
-              }}
-            />
-          </Col>
-          <Col span={2} />
-        </Row>
+        <Search
+          size="large"
+          placeholder="搜索"
+          onSearch={onSearch}
+        />
       </Card>
 
-      <div className="project-list" key="1">
-        <Row gutter={[10, 10]} >
+      <div key="1">
+        <Row
+          gutter={[12, 12]}
+          justify="start"
+          wrap
+        >
           {
             learningProjectList.map((item, index) => (
-              <Col key={index.toString()} style={{ width: '300px' }}>
+              <Col key={index.toString()} flex="auto">
                 <Link to={`/project-info/${item.id}`}>
                   <Card
                     hoverable
@@ -73,7 +67,11 @@ function ProjectList(obj) {
                     <Meta
                       title={item.title}
                       description={item.subjects}
-                    /><br />
+                      style={{
+                        maxWidth: '220px',
+                      }}
+                    />
+
                     <span
                       style={{
                         color: 'gray',
