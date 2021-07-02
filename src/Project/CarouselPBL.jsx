@@ -12,10 +12,21 @@ class CarouselPBL extends React.Component {
   constructor(props) {
     super(props);
     this.imgArray = [
-      require('./static/image/pbl1.jpg'),
-      require('./static/image/pbl2.jpg'),
-      require('./static/image/pbl3.jpg'),
-
+      {
+        img: require('./static/image/pbl1.jpg'),
+        title: 'P B L',
+        text: 'Project Based Learning',
+      },
+      {
+        img: require('./static/image/pbl2.jpg'),
+        title: '',
+        text: '',
+      },
+      {
+        img: require('./static/image/pbl3.jpg'),
+        title: '',
+        text: '',
+      },
     ];
     this.state = {
       intShow: 0,
@@ -93,30 +104,36 @@ class CarouselPBL extends React.Component {
 
   render() {
     const intArray = this.getNextPrevNumber();
-    const thumbChildren = this.imgArray.map((img, i) =>
+    const thumbChildren = this.imgArray.map((item, i) =>
       (
         <span key={i.toString()}>
-          <Image src={img} />
+          <Image src={item.img} />
         </span>
       ));
     return (
-      <BannerAnim onChange={this.onChange} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave} prefixCls="custom-arrow-thumb" autoPlay>
+      <BannerAnim
+        onChange={this.onChange}
+        onMouseEnter={this.onMouseEnter}
+        onMouseLeave={this.onMouseLeave}
+        prefixCls="custom-arrow-thumb"
+        autoPlay
+      >
         {this.imgArray.map((item, index) => (
           <Element key={index.toString()} prefixCls="banner-user-elem">
             <BgElement
               key="bg"
               className="bg"
               style={{
-                backgroundImage: `url(${item})`,
+                backgroundImage: `url(${item.img})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
             />
             <TweenOne className="banner-user-title" animation={{ y: 30, opacity: 0, type: 'from' }}>
-              <div style={{ fontSize: '100px' }}>P B L</div>
+              <div style={{ fontSize: '100px' }}>{item.title}</div>
             </TweenOne>
             <TweenOne className="banner-user-text" animation={{ y: 30, opacity: 0, type: 'from', delay: 100 }}>
-              <div style={{ fontSize: '30px' }}>Project Based Learning</div>
+              <div style={{ fontSize: '30px' }}>{item.text}</div>
             </TweenOne>
           </Element>
         ))
@@ -139,7 +156,7 @@ class CarouselPBL extends React.Component {
             className="img-wrapper"
             component="ul"
           >
-            <li style={{ backgroundImage: `url(${this.imgArray[intArray[0]]})` }} key={intArray[0]} />
+            <li style={{ backgroundImage: `url(${this.imgArray[intArray[0]].img})` }} key={intArray[0]} />
           </TweenOneGroup>
         </Arrow>
         <Arrow
@@ -159,7 +176,7 @@ class CarouselPBL extends React.Component {
             className="img-wrapper"
             component="ul"
           >
-            <li style={{ backgroundImage: `url(${this.imgArray[intArray[1]]})` }} key={intArray[1]} />
+            <li style={{ backgroundImage: `url(${this.imgArray[intArray[1]].img})` }} key={intArray[1]} />
           </TweenOneGroup>
         </Arrow>
 

@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
+    "@ant-design/pro-card": "^1.14.4",
     "@types/react-redux": "^7.1.16",
     "@types/redux": "^3.6.0",
     "antd": "^4.16.2",

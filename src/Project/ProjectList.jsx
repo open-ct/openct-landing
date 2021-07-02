@@ -14,6 +14,7 @@ function ProjectList(obj) {
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
+  const [show, setShow] = useState(new Array(LearningProjectList.length).fill(false));
 
   const updateProjectList = (p, size) => {
     console.log(obj.url, p, size);
@@ -31,6 +32,14 @@ function ProjectList(obj) {
 
   const onSearch = (value) => {
 
+  };
+  const mouseEnter = (index) => {
+    let l = new Array(show.length).fill(false);
+    l[index] = true;
+    setShow(l);
+  };
+  const mouseLeave = () => {
+    setShow(new Array(show.length).fill(false));
   };
   return (
     <QueueAnim className="queue-simple">
@@ -54,21 +63,30 @@ function ProjectList(obj) {
                 <Link to={`/project-info/${item.id}`}>
                   <Card
                     hoverable
+                    onMouseEnter={e => mouseEnter(index)}
+                    onMouseLeave={e => mouseLeave(index)}
                     bordered={false}
                     className="item-card"
                     cover={
-                      <Image
-                        alt="example"
-                        src={item.image}
-                        preview={false}
-                      />
+                      show[index] === true ?
+                        <Image
+                          alt="example"
+                          src={item.image}
+                          preview={false}
+                          className="card-image"
+                        /> :
+                        <Image
+                          alt="example"
+                          src={item.image}
+                          preview={false}
+                        />
                     }
                   >
                     <Meta
                       title={item.title}
                       description={item.subjects}
                       style={{
-                        maxWidth: '220px',
+                        maxWidth: '210px',
                       }}
                     />
 

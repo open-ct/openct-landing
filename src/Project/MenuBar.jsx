@@ -1,5 +1,6 @@
 import React from 'react';
-import { Layout, Menu, Breadcrumb, Affix } from 'antd';
+import { Layout, Menu, Affix } from 'antd';
+import { AlignLeftOutlined, UserOutlined, SyncOutlined, CheckOutlined } from '@ant-design/icons';
 
 import LearningProject from './LearningProject';
 
@@ -20,7 +21,6 @@ class MenuBar extends React.PureComponent {
   handleClick = (e) => {
     let key = e.key;
     this.setState({ menu: key });
-
   }
 
   render() {
@@ -43,14 +43,14 @@ class MenuBar extends React.PureComponent {
                 defaultSelectedKeys={['public']}
                 mode="inline"
               >
-                <Menu.Item className="menu-item" key="public">
+                <Menu.Item className="menu-item" key="public" icon={<AlignLeftOutlined />}>
                   公共项目
                 </Menu.Item>
-                <SubMenu className="menu-item" key="my-project" title="我的项目">
-                  <Menu.Item key="learning">
+                <SubMenu className="menu-item" key="my-project" title="我的项目" icon={<UserOutlined />}>
+                  <Menu.Item key="learning" icon={<SyncOutlined />}>
                     进行中
                   </Menu.Item>
-                  <Menu.Item key="finished">
+                  <Menu.Item key="finished" icon={<CheckOutlined />}>
                     已完成
                   </Menu.Item>
                 </SubMenu>
