@@ -4,8 +4,11 @@
     "index": "./index.js"
   },
   "dependencies": {
-    "antd": "^2.13.10",
+    "@ant-design/icons": "^4.6.2",
+    "antd": "3.x",
     "enquire-js": "^0.1.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
     "prop-types": "^15.6.0",
     "rc-queue-anim": "^1.4.0",
     "rc-scroll-anim": "^2.0.2",

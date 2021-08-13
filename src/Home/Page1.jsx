@@ -180,7 +180,6 @@ class Page1 extends React.PureComponent {
               animation={{ translateY: -600, ease: 'linear', playScale: [0, 1.65] }}
               location="page1-wrapper"
             >
-              Feature
             </Parallax>
           )}
           <h2>指向5C核心素养的<span>结构</span>体系</h2>

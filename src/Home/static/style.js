@@ -1,6 +1,10 @@
 import 'react-github-button/assets/style.css';
+import './index.less'
 import './header.less';
 import './home.less';
 import './footer.less';
 import './responsive.less';
 import './teams2.less';
+import './slideshow1.less';
+import './slideshow2.less';
+import './advisorycard.less'
