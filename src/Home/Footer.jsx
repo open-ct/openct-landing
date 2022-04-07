@@ -10,120 +10,91 @@ function Footer() {
             <div className="footer-center">
               <h2>OpenCT</h2>
               <div>
-                <a target="_blank " href="https://github.com/ant-design/ant-design-pro">
+                <a target="_blank " href="https://gitee.com/openct">
                   OpenCT GitHub
                 </a>
               </div>
               <div>
-                <a target="_blank " href="http://ant.design">
+                <a target="_blank " href="https://github.com/open-ct">
                   OpenCT
                 </a>
               </div>
               <div>
-                <a href="http://mobile.ant.design">OpenCT Mobile</a>
+                <a href="https://gitee.com/openct/js-tasks">
+                OpenCT Tasks Gitee</a>
               </div>
               <div>
-                <a href="http://ng.ant.design">NG-ZORRO</a>
-                <span> - </span>
-                OpenCT of Angular
-              </div>
+                <a href="https://github.com/open-ct/openct-tasks">
+                OpenCT Tasks Github</a>
+               </div>
               <div>
-                <a target="_blank " href="https://github.com/websemantics/awesome-ant-design">
-                  Awesome OpenCT
+                <a target="_blank " href="https://github.com/open-ct/OpenItem">
+                  OpenItem
                 </a>
               </div>
             </div>
           </Col>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>OpenCT</h2>
+              <h2>OpenCT Subitems</h2>
               <div>
-                <a href="http://scaffold.ant.design">Scaffolds</a>
+                <a href="https://github.com/open-ct/reportBNU">ReportBNU</a>
                 <span> - </span>
-                <span>脚手架市场</span>
+                <span>报告系统</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="http://motion.ant.design">Ant Motion</a>
+                <a target="_blank" rel="noopener" href="https://github.com/open-ct/DrawGraph">DrawGraph</a>
                 <span> - </span>
-                <span>设计动效</span>
+                <span>数据可视化</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="http://library.ant.design/">Axure Library</a>
+                <a target="_blank" rel="noopener" href="https://github.com/open-ct/OpenPBL">OpenPBL</a>
                 <span> - </span>
-                <span>Axure 部件库</span>
+                <span>项目式学习平台</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="http://ux.ant.design">Ant UX</a>
+                <a target="_blank" rel="noopener" href="https://github.com/open-ct/openscore">OpenScore</a>
                 <span> - </span>
-                <span>页面逻辑素材</span>
+                <span>阅卷系统</span>
               </div>
-              <div>
-                <a target="_blank" rel="noopener" href="https://github.com/dvajs/dva">dva </a>
-                <span> - </span>
-                <span> 应用框架</span>
               </div>
-              <div>
-                <a target="_blank" rel="noopener" href="https://github.com/dvajs/dva-cli">dva-cli </a>
-                <span> - </span>
-                <span> 开发工具</span>
-              </div>
-            </div>
           </Col>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>社区</h2>
+              <h2>相关网址</h2>
               <div>
-                <a href="#">
-                  更新记录
+                <a href="https://cicabeq.bnu.edu.cn/rcpy/kcgx/BB/7e575332e8eb44dab94e09fa650699d6.htm">
+                  中国基础教育质量监测协同创新中心
                 </a>
               </div>
               <div>
-                <a href="#">
-                  常见问题
+                <a href="https://www.ioe.tsinghua.edu.cn/">
+                  清华大学教育研究院
                 </a>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="https://gitter.im/ant-design/ant-design-pro">
-                  在线讨论
+                <a target="_blank" rel="noopener" href="https://oelab.net">
+                  开放教育联盟
                 </a>
               </div>
-              <div>
-                <a target="_blank" rel="noopener" href="https://github.com/ant-design/ant-design-pro/issues">
-                  讨论列表
-                </a>
               </div>
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  href="http://ant.design/docs/resource/work-with-us"
-                >
-                  加入我们
-                </a>
-              </div>
-            </div>
           </Col>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
               <h2>
-                更多产品
+                更多
               </h2>
               <div>
-                <a target="_blank" rel="noopener" href="http://ant.design/">OpenCT</a>
+                <a target="_blank" rel="noopener" href="https://open-ct.com/landing">OpenCT-QQ群</a>
                 <span> - </span>
-                <span>OpenCT 设计体系</span>
+                <span>389801885</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener" href="https://antv.alipay.com/">OpenCT</a>
+                <a target="_blank" rel="noopener" href="https://antv.alipay.com/">公众号</a>
                 <span> - </span>
-                <span>OpenCT数据可视化方案</span>
+                <span>微信公众号搜索：OpenCT</span>
               </div>
-              <div>
-                <a target="_blank" rel="noopener" href="https://eggjs.org/">Egg</a>
-                <span> - </span>
-                <span>企业级 Node Web 开发框架</span>
-              </div>
-            </div>
+             </div>
           </Col>
         </Row>
       </div>
