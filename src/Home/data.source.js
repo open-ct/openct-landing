@@ -21,7 +21,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/谢志勇_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -53,7 +53,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/罗海风_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -85,7 +85,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/刘启蒙_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -113,7 +113,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/王田_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -141,7 +141,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/董晓舒_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -169,7 +169,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/王佳敏_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -197,7 +197,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/赵萍萍_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -225,7 +225,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/梦玥_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
@@ -253,7 +253,7 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://cdn.open-ct.com/task-resources/bnulhf/瑶瑶_副本.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
