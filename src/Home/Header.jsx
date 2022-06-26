@@ -125,11 +125,11 @@ class Header extends React.Component {
   }]
   aboutServerList = [{
     id:'openCT001',
-    href:'/landing',
-    title:'公司简介'
+    href:'./src/Introduce/index.html',
+    title:'社区介绍'
   },{
     id:'openCT002',
-    href:'/landing',
+    href:'./src/Introduce/code.html',
     title:'项目介绍'
   },{
     id:'openCT003',
