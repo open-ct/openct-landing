@@ -1,0 +1,216 @@
+.projects {
+  height: auto;
+  width: 100%;
+  min-width: 400px;
+  background-color: 'white';
+
+  .projects-banner-wrapper {
+    height: 204px;
+    background-color: #ebedf0;
+    padding: 24px 120px 0px 120px;
+    margin-top: 72px;
+
+    .projects-banner-top {
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+
+      .banner-img-wrapper {
+        height: 100px;
+        width: 124px;
+        padding-right: 24px;
+
+        img {
+          border: 1px solid #8d9dac;
+          border-radius: 8px;
+        }
+      }
+
+      .banner-right-wrapper {
+        width: 100%;
+
+        .title {
+
+          div {
+            font-size: 24px;
+          }
+
+          font-weight: 600;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .otherInfo {
+          width: 500px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+
+          .item {
+            height: 50px;
+            margin-right: 30px;
+            display: flex;
+            // justify-items: center;
+            align-items: center;
+          }
+
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .projects-banner-bottom {
+      height: 80px;
+      width: 100%;
+      background-color: white;
+
+      .projects-banner-nav {
+        margin-top: 32px;
+
+        .ant-menu{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .projects-main-wrapper {
+    // height: 400px;
+
+    .projects-main-pinned {
+      padding: 24px 120px 6px 120px;
+      height: auto;
+      width: auto;
+
+      .main-pinned-title {
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        height: 24px;
+        width: 100%;
+        margin-bottom: 10px;
+
+      }
+
+      .main-pinned-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+
+        .item {
+          margin: 0px 2% 2% 0px;
+          width: 48%;
+          height: 90px;
+          border: 1px solid rgb(208, 215, 222);
+          border-radius: 6px;
+          padding: 16px;
+          background-color: #FFFFFF;
+          min-width: 300px;
+
+          .item-top {
+            display: flex;
+
+            .repo:hover{
+              text-decoration: underline;
+            }
+          }
+
+          .item-bottom {
+            margin-top: 8px;
+            display: flex;
+
+            .icon-item {
+              display: flex;
+              align-items: center;
+              font-size: 16px;
+              margin-right: 10px;
+
+              span {
+                margin-right: 5px;
+              }
+            }
+          }
+
+        }
+      }
+
+    }
+
+    .projects-main-repo {
+      padding: 24px 120px 6px 120px;
+      margin-bottom: 20px;
+      height: auto;
+      width: auto;
+
+      .main-repo-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        height: 24px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .main-repo-wrapper {
+        width: 80%;
+        .main-repo-top {
+          margin: 0px 2% 2% 0px;
+          display: flex;
+          justify-content: space-between;
+
+        }
+
+        .main-repo-context{
+          width: 100%;
+          height: auto;
+          padding-right: 2%;
+
+          .repo-context-wrapper{
+            // height: 200px;
+            border: 1px solid rgb(208, 215, 222) !important;
+            min-width: 800px;
+            border-radius: 6px;
+
+            .repo-context-item{
+              padding: 16px;
+              display: flex;
+              flex-direction: column;
+
+              .item-top{
+                display: flex;
+
+                .repo:hover{
+                  text-decoration: underline;
+                }
+              }
+              .item-mid{
+                margin-top: 5px;
+                font-size: 14px;
+              }
+              .item-bottom{
+                display: flex;
+                margin-top: 12px;
+                font-size: 16px;
+
+                .icon-item{
+                  display: flex;
+                  align-items: center;
+                  margin-right: 25px;
+
+                  .anticon{
+                    margin-right: 3px;
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
