@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Icon, Menu, Button, Popover,Popconfirm } from 'antd';
+import { Link } from 'react-router-dom';
 
 import { enquireScreen } from 'enquire-js';
 
@@ -129,7 +130,7 @@ class Header extends React.Component {
     title:'公司简介'
   },{
     id:'openCT002',
-    href:'/landing',
+    href:'/projects',
     title:'项目介绍'
   },{
     id:'openCT003',
@@ -163,13 +164,13 @@ class Header extends React.Component {
                     <div className="product-item__title">核心业务</div>
                     {
                       this.coreBusinessList.map(item=>(
-                        <a href={item.href} className="product-item__func" key={item.id}>
+                        <Link to={item.href} className="product-item__func" key={item.id}>
                           <img src={item.imgSrc} alt="业务logo" />
                           <div>
                               <div className="product-item__name">{item.title}</div>
                               <div className="product-item__tip">{item.subTitle}</div>
                           </div>
-                        </a>
+                        </Link>
                       ))
                     }
                   </div>
@@ -179,20 +180,20 @@ class Header extends React.Component {
                       <div className="product-item__box">
                         {
                           this.peripheralServices[0].map(item=>(
-                            <a href={item.href} className="product-item__func" key={item.id}>
+                            <Link to={item.href} className="product-item__func" key={item.id}>
                               <div className="product-item__name">{item.title}</div>
                               <div className="product-item__tip">{item.subTitle}</div>
-                            </a>
+                            </Link>
                           ))
                         }
                       </div>
                       <div className="product-item__box">
                         {
                           this.peripheralServices[1].map(item=>(
-                            <a href={item.href} className="product-item__func" key={item.id}>
+                            <Link to={item.href} className="product-item__func" key={item.id}>
                               <div className="product-item__name">{item.title}</div>
                               <div className="product-item__tip">{item.subTitle}</div>
-                            </a>
+                            </Link>
                           ))
                         }
                       </div>
@@ -211,7 +212,7 @@ class Header extends React.Component {
               <div className="more-list price-list">
                 {
                   this.priceServerList.map(item=>(
-                    <a href={item.href} className="more-item" key={item.id}>{item.title}</a>
+                    <Link to={item.href} className="more-item" key={item.id}>{item.title}</Link>
                   ))
                 }
               </div>
@@ -226,7 +227,8 @@ class Header extends React.Component {
               <div className="more-list about-list">
                 {
                   this.aboutServerList.map(item=>(
-                    <a href={item.href} className="more-item" key={item.id}>{item.title}</a>
+                    // <a href={item.href} className="more-item" key={item.id}>{item.title}</a>
+                    <Link to={item.href} className="more-item" key={item.id}>{item.title}</Link>
                   ))
                 }
               </div>
@@ -236,9 +238,9 @@ class Header extends React.Component {
       }
     }
     return (
-      <a href={menuItem.href} key={menuItem.id} className="menuCommonItem">
+      <Link to={menuItem.href} key={menuItem.id} className="menuCommonItem">
         <span>{menuItem.name}</span>{}
-      </a>
+      </Link>
     )
   }
   render() {
