@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>OpenCT</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <link rel="stylesheet"
+        href="http://raw.githack.com/ColorlibHQ/AdminLTE/master/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet"
+        href="http://raw.githack.com/ColorlibHQ/AdminLTE/master/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="http://raw.githack.com/ColorlibHQ/AdminLTE/master/dist/css/adminlte.min.css?v=3.2.0">
+</head>
+
+<body>
+
+    <div id="intro"></div>
+
+    <script type="text/babel">
+
+        function Title() {
+            return (
+                <div class="content-header">
+                    <h1 class="m-0">Open-CT社区介绍</h1>
+                </div>
+            );
+        }
+        function Intro() {
+            return (
+                <div>
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-9">
+                            <div className="info-box">
+                                <span>OpenCT是一种指向5C核心素养的在线交互式高阶思维能力测评体系</span>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-md-3">
+                            <div className="info-box mb-3">
+                                <span className="info-box-icon bg-warning elevation-1">
+                                    <i className="fas fa-users"> </i>
+                                </span>
+                                <div className="info-box-content">
+                                    <span className="info-box-text">参与学员数</span>
+                                    <span className="info-box-number">2,0000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-md-12">
+                            <span>中共中央国务院印发的《深化新时代教育评价改革总体方案》明确要求“用5-10 年的时间，
+                                基本形成富有时代特征、彰显中国特色、体现世界水平的教育评价体系”，这一评价体系将更
+                                加突出立德树人，更加聚焦学生发展核心素养。发展学生核心素养作为教育部深化基础教育课
+                                程改革的重要标志，明确要求写入中小学课程方案和各学科课程标准，并在教材修订、教学实
+                                践和课程评价中全面落实。因此，从关注知识掌握、技能训练、解题能力转向全面开展学生核
+                                心素养的评价研究，不仅具有十分重要的学术价值和理论贡献，而且对于冲破长期困扰我国社
+                                会的应试教育枷锁、促进基础教育整体转型升级、培育新时代需要的建设者，对于全面建成创
+                                新型国家、实现中华民族伟大复兴，更具有重要的现实意义和深远的历史意义。 为了给核心素
+                                养的培养与评价提供新思路，探索不同课程对学生核心素养发展的贡献度及其内在机制，为扭
+                                转我国长期以来存在的以学科为中心的应试倾向提供新的理论支持，北京师范大学中国基础教
+                                育质量监测协同创新中心的刘坚教授组织及其博士生罗海风组织团队开展了“基于计算机交互环
+                                境的核心素养培养及测评研究”的课题，采取质性和量化相结合的混合研究方法，结合我国学生
+                                的特点和文化背景，以5C 核心素养模型为理论框架，开发了在线交互式5C 核心素养学、练、
+                                评系统OpenCT，并进行了大规模的应用，该系统目前已在全国范围内拥有数万的学生用户。为
+                                引导教育领域的技术发展，特将系统开源，希望可以成为教育领域的技术风向标，为教育界的开
+                                源引领潮流。 OpenCT高阶思维学练评体系，以5C核心素养为基本理论指导框架，整合五大功能
+                                架构：（1）交互式任务零代码批量化命制，颠覆传统在线任务的开发模式；（2）嵌入多功能在
+                                线学习模块，轻松发布学习资源；（3）轻量级架构，满足大规模在线网络问卷及测试；（4）基
+                                于状态的数据采集新机制，过程性数据自动分析，结果性数据一键导出；（5）自动生成报告，加
+                                速对学生作答的反馈机制。 旨在打造一个颠覆传统技术的新型生态化系统，为一线师生提供开
+                                放的学、练、测、评体系，助力基础教育的线上化发展。未来拟发起以5C核心素养为内容基础的
+                                国际5C高阶思维挑战赛，在全国招募一线教师线上批量化命制交互式任务，引领在线测评的发展
+                                方向，为中小学生核心素养的发展提供切实有效的路径。</span>
+                        </div>
+                    </div>
+                </div>
+
+            );
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Title />
+                    <Intro />
+                </div>
+            );
+        }
+
+        ReactDOM.render(<App />, document.getElementById('intro'));
+    </script>
+
+</body>
+
+</html>
